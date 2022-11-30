@@ -10,7 +10,7 @@ const clockNode = document.querySelector("#clock p");
 
 setInterval(()=> {
   clockNode.innerHTML = clock.printTime()
-},1000)();
+},1000);
 
 let l = document.createElement('li');
 l.innerHTML = "hello";

@@ -8,7 +8,7 @@ console.log("warmup");
 export const htmlGenerator = (string, htmlElement) => {
    newP = document.createElement("p");
    newP.innerHTML = string;
-   partyHeader.append(newP);
+   htmlElement.append(newP);
 };
 
 htmlGenerator('Party Time!!!!', partyHeader);

@@ -2,10 +2,13 @@
 const partyHeader = document.getElementById('party');
 let newP;
 
-//export const htmlGenerator = (string, htmlElement) => {
-//    newP = document.createElement(htmlElement);
-//    newP.innerHTML = string;
-//    partyHeader.append(newP);
-//};
-//
-//htmlGenerator('Party Time.', partyHeader);
+console.log("warmup");
+
+
+export const htmlGenerator = (string, htmlElement) => {
+   newP = document.createElement("p");
+   newP.innerHTML = string;
+   partyHeader.append(newP);
+};
+
+htmlGenerator('Party Time!!!!', partyHeader);
